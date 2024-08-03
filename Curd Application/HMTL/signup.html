@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Login & Signup Form</title>
+    <link rel="stylesheet" href="../Cs/signup.css" />
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="form signup">
+        <header>Signup</header>
+        <form action="#">
+          <input type="text" id="fullName" placeholder="Full name" required />
+          <input type="text" id="email" placeholder="Email address" required />
+          <input type="password" id="password" placeholder="Password" required />
+          <div class="checkbox">
+            <input type="checkbox" id="signupCheck" />
+            <label for="signupCheck">I accept all terms & conditions</label>
+          </div>
+           <button  onclick="signUpHandler()" >Sign up</button> 
+        </form>
+      </div>
+    </section>
+  </body>
+  <script src="../javascript/signup.js" type="module"></script>
+</html>
